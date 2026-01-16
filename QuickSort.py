@@ -24,6 +24,5 @@ def quickSort(self, nums, start, end):
                 high -= 1
         self.quickSort(nums, start, low - 1)
         self.quickSort(nums, high + 1, end)
-        
-print(quickSort([2,3,4,2,1,5,10]))
+
     
