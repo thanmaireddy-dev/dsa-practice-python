@@ -10,6 +10,6 @@ def gas_station(gas, cost):
             if currgas<0:
                 currgas=0
                 start= i+1
-    return start
+        return start
 
 print(gas_station([2,3,4],[3,4,3]))
