@@ -7,7 +7,6 @@ def gas_station(gas, cost):
     else:
         for i in range(start,n):
             curr_gas= curr_gas+ gas[i]- cost[i]
-            print(curr_gas)
             if curr_gas<0:
                 curr_gas=0
                 start= i+1
