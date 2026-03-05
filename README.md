@@ -9,6 +9,7 @@ Instead of keeping my code only on my local system, I decided to maintain this G
 4. Stay honest and consistent with my preparation
 
 
--Thanmai Reddy
+-Thanmaie
+
 Computer Science & Engineering student
 Learning DSA one problem at a time.
