@@ -1,0 +1,1 @@
+def number_of_subarrays_of_size_k_and_average_greatthanore
