@@ -9,7 +9,7 @@ def longest_substring_with_atmost_k_distinct_characters(s,k):
         else:
             charset[s[p1]]=1
             
-        while len(charset)>2:
+        while len(charset)>k:
             charset[s[p2]]-=1
             if charset[s[p2]]==0:
                 del charset[s[p2]]
@@ -18,5 +18,5 @@ def longest_substring_with_atmost_k_distinct_characters(s,k):
         
     return maxlen
 
-print(longest_substring_with_atmost_k_distinct_characters("abeddefg", 3))
+print(longest_substring_with_atmost_k_distinct_characters("aababbcaacc", 2))
     
