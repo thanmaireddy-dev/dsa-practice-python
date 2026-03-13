@@ -1,2 +1,0 @@
-s= "flower"
-print(s[2])
