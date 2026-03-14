@@ -3,7 +3,7 @@ def longest_repeating_character_replacement(s,k):
     maxlen=0
     maxfreq=0
     left=0
-    charset=0
+    charset={}
     for right in range(n):
         if s[right] in charset:
             charset[s[right]]+=1
@@ -18,7 +18,7 @@ def longest_repeating_character_replacement(s,k):
         maxlen= max(maxlen, right-left+1)
     return maxlen
 
-print(longest_repeating_character_replacement("AABABBA",1))
+print(longest_repeating_character_replacement("ABAB", 2))
             
             
     
