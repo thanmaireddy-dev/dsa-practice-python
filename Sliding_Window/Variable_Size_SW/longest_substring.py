@@ -1,4 +1,4 @@
-def longest_substring(s):
+def longest_substring_without_repeating_characters(s):
     n= len(s)
     maxlen=0
     left=0
@@ -12,5 +12,5 @@ def longest_substring(s):
         
     return maxlen
 
-print(longest_substring("pwwkew"))
+print(longest_substring_without_repeating_characters("pwwkew"))
         
