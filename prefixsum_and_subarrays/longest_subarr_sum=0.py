@@ -1,18 +1,19 @@
 def longest_zero_sum_subarray(arr):
     n= len(arr)
-    seen={0:-1}
-    maxlen=0
+    seen= {0:-1}
+    maxlen= float('-inf')
     prefixsum=0
     for i in range(n):
-        prefixsum= prefixsum + arr[i]
-        if prefixsum in seen:
-            length= i- seen[prefixsum]
+        prefixsum= prefixsum+ arr[i]
+        if prefixsum==0 or prefixsum in seen:
+            length= i-seen[prefixsum]
             maxlen= max(maxlen, length)
         else:
-            seen[prefixsum]= i
+            seen[prefixsum]=i
     return maxlen
+        
 
-print(longest_zero_sum_subarray([2,3,-5,0,-3,6]))      
+print(longest_zero_sum_subarray([2,3,-5,0,3,-3,6]))      
     
     
     

@@ -41,4 +41,30 @@ def permutation_in_a_string(s1,s2):
     return False
 
 print(permutation_in_a_string("ab", "eidboaoo"))
+
+
+"""
+sliding window - important problems
+🔥 Tier 1 (Revise 2-3 times)
+
+⭐ Longest Substring Without Repeating Characters
+⭐ Fruits Into Baskets
+⭐ Longest Repeating Character Replacement
+⭐ Minimum Size Subarray Sum
+⭐ Subarray Product Less Than K
+
+🔥 Tier 2 (Revise at least once)
+
+⭐ Binary Subarrays With Sum
+⭐ Count Number of Nice Subarrays
+⭐ Longest Substring with At Most K Distinct
+⭐ Subarrays with At Most K Distinct Integers
+
+🔥 Tier 3 (Do once, revise lightly)
+
+⭐ Find All Anagrams in a String
+⭐ Permutation in String
+⭐ Longest Subarray of 1s After Deleting One Element
+"""
+
     
