@@ -6,5 +6,4 @@ def seperate_digits_in_an_array(nums):
         result.extend(digit)
     return result
     
-    
 print(seperate_digits_in_an_array([2344,5600]))
