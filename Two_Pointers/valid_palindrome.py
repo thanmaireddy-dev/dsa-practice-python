@@ -7,11 +7,12 @@ def valid_plaindrome(s):
             p1=p1+1
         elif not s[p2].isalnum():
             p2=p2-1
-        elif s[p1].lower()!= s[p2].lower():
-            return False
-        else:
+        elif s[p1].lower()==s[p2].lower():
             p1=p1+1
             p2=p2-1
+        else:
+            return False
     return True
+
 
 print(valid_plaindrome("A man, a plan, a canal: Panama"))
