@@ -7,7 +7,7 @@ def valid_palindrome_two(s):
         while (p1<p2):
             if s[p1]==s[p2]:
                 p1=p1+1
-                p2=p2-1
+                p2=p2-1 
             else:
                 return False
         return True
@@ -21,5 +21,5 @@ def valid_palindrome_two(s):
     return True
 
 
-print(valid_palindrome_two("abd"))
+print(valid_palindrome_two("ablmbkd"))
                 
