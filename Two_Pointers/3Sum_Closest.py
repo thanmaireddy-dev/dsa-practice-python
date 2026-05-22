@@ -19,4 +19,4 @@ def three_sum_closest(nums, target):
     return closest_sum
 
 
-print(three_sum_closest([-1,2,1,-4],1))
+print(three_sum_closest([-1,2,1,-4]))
