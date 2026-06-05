@@ -1,5 +1,6 @@
 This repository contains my Data Structures and Algorithms practice using Python.
 I created this repo to stay consistent with my DSA preparation and to track my learning over time. The goal here is not to write the most optimized or “clever” code, but to understand concepts clearly and solve problems step by step.
+
 Why this repository exists:
 I’m currently learning DSA and practicing regularly.
 Instead of keeping my code only on my local system, I decided to maintain this GitHub repository to:
@@ -9,7 +10,6 @@ Instead of keeping my code only on my local system, I decided to maintain this G
 4. Stay honest and consistent with my preparation
 
 
--Thanmaie
-
+-Gopu Mary Thanmaie
 Computer Science & Engineering student
 Learning DSA one problem at a time.
