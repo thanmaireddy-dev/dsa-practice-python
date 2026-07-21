@@ -1,9 +1,3 @@
-class TreeNode(object):
-    def __init__(self, val=0, left=None, right=None):
-        self.val = val
-        self.left = left
-        self.right = right
-
 from collections import deque
 class Solution(object):
     def averageOfLevels(self, root):
@@ -25,5 +19,3 @@ class Solution(object):
                     queue.append(root.right)
             result.append(float(summ)/n)
         return result
-
-print(averageOfLevels([3,9,20,null,null,15,7]))

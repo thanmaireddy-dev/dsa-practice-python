@@ -1,4 +1,4 @@
-#lc 410- split array largest sum
+#same as lc HARD 410- split array largest sum
 def split_array_largest_sum(nums,k):
     def can_split(mid, nums,k):
         total_sum=0
