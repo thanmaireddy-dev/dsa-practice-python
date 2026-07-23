@@ -1,4 +1,4 @@
-lass Solution(object):
+class Solution(object):
     def isSubtree(self, root, subRoot):
         def isIdentical(root,subRoot):
             if root is None and subRoot is None:
