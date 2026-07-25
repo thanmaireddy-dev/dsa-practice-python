@@ -1,3 +1,4 @@
+from collections import deque
 class Solution(object):
     def sumOfLeftLeaves(self, root):
         if root is None:
