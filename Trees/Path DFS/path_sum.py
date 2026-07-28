@@ -13,7 +13,3 @@ class Solution(object):
             if root.left:
                 stack.append((root.left, currsum+ root.left.val))
         return False
-
-list1=[1,2,3]
-lsut2= [3,4,5]
-print(list1+ lsut2)
