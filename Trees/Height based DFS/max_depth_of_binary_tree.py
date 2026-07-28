@@ -16,3 +16,11 @@ class Solution(object):
                     queue.append(root.right)
             count= count+1
         return count
+'''
+recursive dfs method:-
+if root is None:
+    return 0
+leftheight= self.maxDepth(root.left)
+rightheight= self.maxDepth(root.right)
+return 1+ max(leftheight, rightheight)
+'''
