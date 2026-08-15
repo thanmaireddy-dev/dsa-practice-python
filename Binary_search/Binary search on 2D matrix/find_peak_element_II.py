@@ -23,8 +23,6 @@ def find_peak_element_II(matrix):
             low=midcol+1
     return [-1,-1]
 
-print(find_peak_element_II([[48,36,35,17,48],[38,28,38,26,24],[15,9,33,32,6],[49,4,8,10,41]]))
+print(find_peak_element_II([[8,36,35,17,48],[38,28,38,26,24],[15,9,33,32,6],[49,4,8,10,41]]))
 
-        
-        
         
