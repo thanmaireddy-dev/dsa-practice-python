@@ -8,4 +8,4 @@ def longest_common_prefix(strs):
                 return strs[0][:i]
     return strs[0]
 
-print(longest_common_prefix(["cluster", "class", "clam", "clouds", "click"]))
+print(27- (ord('a')-96))
