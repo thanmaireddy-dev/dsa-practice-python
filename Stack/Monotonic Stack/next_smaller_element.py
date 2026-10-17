@@ -14,6 +14,6 @@ def next_smaller(nums):
         stack.append(nums[i])
     return result
 
-print(next_smaller([4,8,5,2,25]))
+print(next_smaller([13, 7, 6, 12]))
 
     
