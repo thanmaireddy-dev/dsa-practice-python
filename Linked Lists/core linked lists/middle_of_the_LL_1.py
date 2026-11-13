@@ -1,6 +1,11 @@
 def middle_of_LL(head):
-    n= len(head)
-n=6
-m=5 
-for i in range(m//2):
-    print("haiiii") 
+    n=0
+    current=head
+    while current is not None:
+        n=n+1
+        current=current.next
+        
+    current=head
+    for i in range(n//2):
+        current=current.next
+    return current 
